@@ -1,0 +1,16 @@
+{
+  "name": "TypeChain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wndrms/TypeChain.git",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.5.0"
+  }
+}
